@@ -15,20 +15,20 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'KANGO~wmM2CLAK#tAMh7U5ovX4WihCbmF068p0_W9WbFiXT1qiI0sVkJDA' 
 //Enter your KANGO-XMD session id here; must start with KANGO~
 
-//--------------------[ BOT NAME ]----------------------//
+//--------------------[ SundayAlexanderMedia]----------------------//
 
-global.botname = process.env.BOT_NAME || 'KANGO-XMD' 
+global.botname = process.env.BOT_NAME || 'SundayAlexanderMedia' 
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '233509977126' 
+global.ownernumber = process.env.OWNER_NUMBER || '+234 903 064 8381' 
 
 //--------------------[ SUDO ]--------------------------//
 
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['233509977126', '233577860202'];
+global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['233509977126', '2348052772138'];
 // Type additional allowed users here
 //NB: They'll be able to use every functions of the bot without restrictions.
 
@@ -59,7 +59,7 @@ global.wm = process.env.GL_WM || "> ©KANGO-XMD"
 
 //---------------------[ REPLIES ]-----------------------//
 
-global.mess = { 
+global.mess = {
   done: '*Done*', 
   success: '©kango-xmd', 
   owner: `*You don't have permission to use this command!*`, 
